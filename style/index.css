@@ -334,7 +334,7 @@
   height: 20px;
   background: #ff344d;
   display: inline-block;
-  float: left;
+  float:left;
   margin-right: 8px;
 }
 .in_pharmacist h3 span {

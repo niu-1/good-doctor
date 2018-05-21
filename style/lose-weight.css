@@ -1,0 +1,24 @@
+*{margin:0;padding:0;}
+.categoryBox .ebody{
+    width:100%;
+    margin:0 auto;
+    overflow:hidden;
+}
+.etitle{
+    width:100%;
+}
+.ebody .box img{
+    width:100%;
+    display:block;
+   
+}
+img{
+    vertical-align:middle;
+    left:-60px;
+   
+}
+.box .video{
+    position:absolute;
+    left:468px;
+    top:7px;
+}
