@@ -61,23 +61,23 @@
                 </div>
             </div>
         </div>
-        <script src= "libs/jquery-3.3.1.js"></script>
+        <script src= "src/libs/jquery-3.3.1.js"></script>
         <script>
             $(function(){
                 $(".btn").on("click",function(){
-                    var username = $("#telphone");
-                    var pwd1 = $("#pwd1");
-                    var pwd2 = $("#pwd2");
-                    var opt = {
+                    this.username = $("#telphone");
+                    this.pwd1 = $("#pwd1");
+                    this.pwd2 = $("#pwd2");
+                    this.opt = {
                         url:"http://localhost:81/program1/php/register.php",
                         type:"post",
                         data:{
-                            username:username,
-                            pwd:pwd1,
-                            pwd2:pwd2
+                            username:this.username,
+                            pwd:this.pwd1,
+                            pwd2:this.pwd2
                         }
                     }
-                    $.ajax(opt)
+                    $.ajax(this.opt)
                     .then(function(res){
                         console.log(res);
                     })

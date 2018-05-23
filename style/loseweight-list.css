@@ -1,0 +1,223 @@
+.main{
+    width:1200px;
+    margin:0 auto 25px;
+}
+.main .detailTitle{
+    padding:20px 0 20px 10px;
+    font-size:14px;
+    color:#868686;
+}
+.main .detailAd{
+    margin-bottom:20px;
+}
+.main .pdInfo{
+    width:983px;
+}
+.main .pdInfo  .pdInfoSlide{
+    width:400px;
+    margin-right:30px;
+}
+.lFloat{
+    float:left;
+}
+#showPictureBox{
+    width:400px;
+    height:400px;
+    background:blue;
+}
+#smallPictures{
+    width:400px;
+    height:75px;
+    background:green;
+}
+.shareFollow{
+    margin:10px 0 20px;
+}
+.cf{
+    clear:both;
+}
+.cf:after{
+    clear:both;
+    content:"";
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+#bdshare{
+    z-index:999;
+    padding-bottom:2px;
+    font-size:12px;
+    float: left;
+    text-align:left!important;
+    zoom:1;
+}
+/* 分享 */
+.main .shareFollow .share{
+    background:url(../images/share.png) no-repeat left center;
+    padding-left:20px;
+    cursor: pointer;
+    margin:0 40px 0 0;
+}
+/* 关注商品 */
+.main .shareFollow .follow{
+    background:url(../images/gz.png) no-repeat left center;
+    padding-left:20px;
+    cursor:pointer;
+    margin:0 40px 0 0;
+}
+.wxtip{
+    margin-bottom:50px;
+}
+.main .pdInfo .infoDetails{
+    columns: #666666;
+    width:550px;
+}
+.main .pdInfo .infoDetails h1{
+    font-size:18px;
+    color:#181818;
+    font-weight:normal;
+    margin-top:-5px;
+    margin-bottom:3px;
+}
+.main .pdInfo .infoDetails .micText{
+    font-size:14px;
+    color:#ff334c;
+    font-weight:normal;
+    margin-bottom:3px;
+}
+.main .pdInfo .infoDetails .priceboxLeft{
+    float: left;
+    padding-top:26px;
+    padding-right:10px;
+}
+.main .pdInfo .infoDetails .price{
+    font-size:36px;
+    color:#de0021;
+    margin-right:13px;
+}
+.main .pdInfo .infoDetails .price i{
+    font-size:18px;
+    position: relative;
+    top:3px;
+    padding-right:2px;
+}
+.main .pdInfo .infoDetails .price em{
+    position: relative;
+    top:5px;
+}
+.main .pdInfo .infoDetails .oldPrice{
+    font-size:18px;
+    color:#999999;
+    margin-top:21px;
+    text-decoration:line-through;
+    margin-left:10px;
+}
+.ximessage{
+    width:100%;
+}
+.main .pdInfo .infoDetails .tiptop.dewinfo{
+    height:26px;
+    line-height:26px;
+    border:none;
+    margin:6px 0 0 0;
+    padding:0;
+}
+.main .pdInfo .infoDetails em{
+    padding-right:25px;
+}
+.tiptop p{
+    cursor: pointer;
+    margin-bottom:8px;
+}
+.tipcontent span{
+display:inline-block;
+height:27px;
+line-height:27px;
+border:1px solid #b8b7bd;
+position:relative;
+}
+.address{
+    margin-bottom:10px;
+}
+.address .fw{
+    height:26px;
+    line-height:26px;
+}
+.address .sel_address{
+    position: relative;
+    display: inline-block;
+    padding-left:10px;
+    padding-right:20px;
+    height:24px;
+    line-height:24px;
+    cursor: pointer;
+    border:1px solid #ddd;
+}
+.address .sel_address .address_title{
+    max-width:150px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    height:26px;
+}
+.address-tips{
+    padding-top:5px;
+    padding-left:70px;
+    height:15px;
+    line-height:15px;
+    font-size:12px;
+    color:#9d9d9d;
+    clear:both;
+}
+.selectNumber input{
+    width:34px;
+    height:26px;
+    border:1px solid #a7a6ac;
+    text-indent:10px;
+    padding:4px;
+}
+.selectNumber span{
+    padding:5px 0 10px 0;
+}
+.main .infoDetails .selectNumber .raicon{
+    width:16px;
+    height:14px;
+    display:block;
+    border:1px solid #a7a6ac;
+    margin-left:50px;
+    cursor: pointer;
+}
+.detailIcon{
+    background:url(../images/img.png) no-repeat;
+}
+.main .pdInfo .infoDetails .selectNumber .reduce{
+    background-position:-31px 0;
+}
+.main .pdInfo .infoDetails .selectNumber .reduce{
+    background-position:-31px 0;
+}
+.main .pdInfo .infoDetails .selectNumber .add{
+    background-position:-15px 0;
+    margin-top:4px;
+}
+.main .pdInfo .infoDetails .detailsBtn{
+    margin:15px 0 25px 70px;
+}
+.main .pdInfo .infoDetails .detailsBtn a.shopCar{
+    color:#fff;
+    background:#ff2833 url(../images/cart.png) no-repeat;
+    background-position:10px center;
+    text-indent:20px;
+}
+.main .pdInfo .infoDetails .detailsBtn a{
+    width:132px;
+    height:35px;
+    display:inline-block;
+    text-align:center;
+    line-height:35px;
+    border:1px solid #ff2833;
+    font-size:16px;
+    vertical-align:middle;
+    margin-right:10px;
+    position: relative;
+}

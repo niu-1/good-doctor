@@ -3809,8 +3809,16 @@
 			})();
 		</script>
 		<script src="libs/move.js"></script>
-		<script src="js/index.js"></script>
-		<script src="libs/jquery-3.3.1.js"></script>
+		<script src="src/libs/require.js"></script>
+		<script>
+			requirejs.config({
+				baseUrl:"src",
+				paths:{
+					"jquery":"libs/jquery-3.3.1"
+				}
+			})
+			require(["model/index"]);
+		</script>
 		<script type="text/javascript">
 			var cur_url = window.location.href;
 			var targetURL = "http://m.ehaoyao.com";
